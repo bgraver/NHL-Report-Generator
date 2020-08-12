@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "conferences": {
+      "route": "https://statsapi.web.nhl.com/api/v1/conferences"
+    },
+    "divisions": {
+      "route": "https://statsapi.web.nhl.com/api/v1/divisions"
+    },
+    "draft": {
+      "route": "https://statsapi.web.nhl.com/api/v1/draft"
+    },
+    "draft-prospect": {
+      "route": "https://statsapi.web.nhl.com/api/v1/draft/prospects"
+    },
+    "game-boxscore": {
+      "route": "https://statsapi.web.nhl.com/api/v1/game/{0}/boxscore",
+      "description": "{0} - game id"
+    },
+    "game-feed-live": {
+      "route": "https://statsapi.web.nhl.com/api/v1/game/{0}/feed/live",
+      "description": "{0} - game id"
+    },
+    "schedule": {
+      "route": "https://statsapi.web.nhl.com/api/v1/schedule",
+      "params": {
+        "startDate": "date following format (YYYY-MM-DD)",
+        "endDate": "date following format (YYYY-MM-DD)"
+      }
+    },
+    "standings": {
+      "route": "https://statsapi.web.nhl.com/api/v1/standings"
+    },
+    "standing-types": {
+      "route": "https://statsapi.web.nhl.com/api/v1/standingsTypes"
+    },
+    "statistic-types": {
+      "route": "https://statsapi.web.nhl.com/api/v1/statTypes"
+    },
+    "teams": {
+      "routes": "https://statsapi.web.nhl.com/api/v1/teams"
+    },
+    "teams-roster": {
+      "route": "https://statsapi.web.nhl.com/api/v1/teams/{0}/roster",
+      "description": "{0} - team id"
+    },
+    "teams-stats": {
+      "route": "https://statsapi.web.nhl.com/api/v1/teams/{0}/stats",
+      "description": "{0} - team id"
+    },
+    "people": {
+      "route": "https://statsapi.web.nhl.com/api/v1/people/{0}",
+      "description": "{0} - player id"
+    }
+
+
+  }
+}
