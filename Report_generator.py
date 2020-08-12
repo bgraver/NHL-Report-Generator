@@ -10,6 +10,5 @@ db = client["nhl"]
 collection = db["2019_2020"]
 
 pprint.pprint(collection.find_one())
-print()
 
 
